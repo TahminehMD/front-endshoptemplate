@@ -1,10 +1,15 @@
+:root{
+    --gray:rgb(113, 113, 113);
+}
+
 body {
     padding: 0;
     margin: 0;
-    background: #f2f6e9;
+    background: #f0f0f0;
 }
 .navbar {
-    background:#6ab446;
+    background:#f0f0f0;
+    border-bottom: 1px solid var(--gray);
 }
 .nav-link,
 .navbar-brand {
@@ -13,6 +18,7 @@ body {
 }
 .nav-link {
     margin-right: 1em !important;
+    color: var(--gray);
 }
 .nav-link:hover {
     color: #000;
